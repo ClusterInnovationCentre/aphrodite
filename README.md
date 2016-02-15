@@ -10,6 +10,11 @@ Quick static version of the institution's website - Complete rewrite will take a
 
 Hosted here: [aphrodite](https://github.com/ClusterInnovationCentre/aphrodite)
 
+#### What to do?
+
+For the requirements/technologies to be used, go to [issue#1](https://github.com/ClusterInnovationCentre/aphrodite/issues/1).
+
+For roadmap/features to be added, go to [issue#2](https://github.com/ClusterInnovationCentre/aphrodite/issues/2).
 
 #### Whom to contact
 
