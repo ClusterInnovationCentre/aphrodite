@@ -6,16 +6,17 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
+title: Cluster Innovation Centre, University of Delhi
+email: dev@one.ducic.ac.in
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+  University of Delhi has set up Cluster Innovation Centre (CIC) with the
+  objective of fostering an ecosystem of innovation and connecting research
+  with application for the benefit of society. The CIC aims to support
+  application oriented research to solve real world problems by developing
+  ideas into innovative applications that can be commercialized successfully.
+baseurl: ""
+url: "https://ducic.ac.in" # the base hostname & protocol for your site
+github_username:  ClusterInnovationCentre
 
 # Build settings
 markdown: kramdown
