@@ -1,4 +1,4 @@
-# aphrodite
+# aphrodite [![Build Status](https://travis-ci.org/ClusterInnovationCentre/aphrodite.svg?branch=gh-pages)](https://travis-ci.org/ClusterInnovationCentre/aphrodite)
 
 Frontend Assets and Templates
 
