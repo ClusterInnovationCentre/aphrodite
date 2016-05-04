@@ -1,0 +1,32 @@
+{
+  "name": "aphrodite",
+  "version": "0.0.1",
+  "description": "CIC Website Templates",
+  "main": "aphrodite/app.coffee",
+  "scripts": {
+    "start": "brunch w -s",
+    "build": "brunch b -p",
+    "deploy": "sh deploy.sh"
+  },
+  "author": "Prashant Sinha <prashant@ducic.ac.in>",
+  "license": "MIT",
+  "repository": "prashnts/aphrodite",
+  "dependencies": {
+    "auto-reload-brunch": "^2.2.0",
+    "autoprefixer": "^6.3.6",
+    "brunch": "github:brunch/brunch#aaaee25",
+    "clean-css-brunch": "^2.0.0",
+    "coffee-script-brunch": "^2.0.0",
+    "coffeelint-brunch": "^2.0.0",
+    "css-brunch": "^2.6.1",
+    "javascript-brunch": "^2.0.0",
+    "jeet": "^6.1.2",
+    "jquery": "^2.2.3",
+    "jaded-brunch": "^2.3.0",
+    "lodash": "^4.11.1",
+    "normalize.css": "^4.1.1",
+    "postcss-brunch": "^0.5.0",
+    "stylus-brunch": "^2.6.0",
+    "uglify-js-brunch": "^2.0.1"
+  }
+}
