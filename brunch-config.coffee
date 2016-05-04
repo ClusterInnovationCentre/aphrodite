@@ -18,7 +18,10 @@ module.exports = config:
         require('autoprefixer')(['last 8 versions'])
       ]
     stylus:
-      plugins: ['jeet']
+      plugins: [
+        'jeet'
+        'bootstrap-styl'
+      ]
 
   npm:
     enabled: yes

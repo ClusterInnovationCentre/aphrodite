@@ -1,5 +1,52 @@
 // aphrodite
 
-html, body
-  margin: 0
+@import 'jeet'
+@import './_mixins'
 
+$padding-base-vertical = 2px
+$input-color = $dark
+
+@import 'bootstrap/theme'
+@import 'bootstrap/forms'
+@import 'bootstrap/variables'
+@import 'bootstrap/buttons'
+
+html, body
+  margin 0
+  cf()
+
+body
+  margin-top 30px
+
+nav
+  cf()
+  container-width()
+  position fixed
+  width 100%
+  top 0
+  z-index 100
+
+  ul.sticky
+    margin 0
+    padding 0
+    display flex
+    list-style-type none
+    overflow scroll
+    background #222
+
+    li
+      padding 10px 20px
+      display inline-flex
+      flex-grow 0
+      flex-shrink 0
+      color #FFF
+
+  div.navs
+    position absolute
+    background #555
+    width 100%
+    top -50%
+    z-index -2
+
+a
+  color inherit

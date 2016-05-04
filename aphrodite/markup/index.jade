@@ -3,7 +3,7 @@
 doctype html
 html(lang='en')
   head
-    title= 'aphrodite'
+    title Cluster Innovation Centre
     meta(charset='utf-8')
     meta(
       name='viewport'
@@ -16,11 +16,13 @@ html(lang='en')
     link(rel='stylesheet', type='text/css', href='css/libraries.css')
     link(rel='stylesheet', type='text/css', href='css/app.css')
   body
-    h1= aphrodite
-    p= CIC Website Templates
+    include ./partials/nav.jade
+
+    h1 aphrodite
+    p CIC Website Templates
 
     script(type='text/javascript', src='js/libraries.js')
     script(type='text/javascript', src='js/app.js')
-    script
+    script.
       var app = require('app');
       app.init();
